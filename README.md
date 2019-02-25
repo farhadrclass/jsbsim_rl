@@ -1,6 +1,9 @@
 # jsbsim_rl
 Using reinforcement learning to fly an airplane. 
 
+Questions?  Feel free to ask here:
+https://gitter.im/jsbsim_rl/community
+
 # Introduction
 
 JSBSim is an open source flight dyamics simulator that the open source flight simulator FlightGear uses under the hood.  This project aims to string together a number of software libraries and tools to create an end-to-end reinforcement learning environment for learning to fly airplanes.
