@@ -80,6 +80,11 @@ jsbsim.  From the tensorboard plots, it looks like it is training successfully. 
 getting trained model to fly against flightgear (with jsbsim as the underlying sim) within
 the image to validate that the trained model flies the airplane well.
 
+To enable flight gear rendering, set the following.  This really only makes sense for the evaluation as it just slows down the training.
+```
+export GYM_JSBSIM_RENDER_MODE=flightgear
+```
+
 # Collaboration Notes:
 
 If anyone out there is interested in collaborating on projects like this please reach out and let me know!  jrjbertram at g mail dot com.
